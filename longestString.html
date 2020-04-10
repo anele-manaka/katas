@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        var arr = ['the', 'quick', 'brown', 'fox', 'ate', 'my', 'chickens'];
+        var lgth = 0;
+
+        for(var index = 0; index < arr.length; index++){
+            if(arr[index].length > lgth){
+                var lgth = arr[index].length;
+                longest = arr[index];
+            }
+        }
+        document.write(longest)
+    </script>
+</body>

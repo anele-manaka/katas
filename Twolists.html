@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        let a = [11,22,33];
+        let b = [1,2,3];
+        var newList = function(a,b){
+            let l = a.length + b.length;
+            let r = [];
+            let j = 0, k=0;
+
+            for(let index = 0; index < l; index++){
+                if ( index % 2 == 0){
+                    r[index] = a[j++];
+                } else {
+                    r[index] = b[k++];
+                }
+            }
+            return r;
+        }
+    </script>
+</body>
