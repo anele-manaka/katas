@@ -1,9 +1,9 @@
-function triangle(lenofTriangle){
-    for(let index = 0; index < lenofTriangle; i++){
-        for (let index2 = index; index2 >= 0; index2--){
-            console.log('#');
-        }
-        console.log('<br>')
+function triangle(lenofTriangle) {
+  for (let i = 0; i < lenofTriangle; i++) {
+    for (let i2 = i; i2 >= 0; i2--) {
+      console.log("#");
     }
+    console.log("\n");
+  }
 }
-triangle()
+triangle(4);
